@@ -1,0 +1,132 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(226, 120, 21)
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: lightblue;
+}
+h3{
+    text-align: center;
+    font:13px 'Verdana', sans-serif;
+    color:darkgray;
+    font-weight: 600;
+}
+body{
+    background-image: url(".\\sfondo.jpg");
+}
+input{
+    border: solid 2px;
+    margin-top: 10px;
+}
+select[name=autore]{
+    border: solid 2px;
+    margin-top: 10px; 
+}
+input[name=nome_autore]{
+    display: none;
+}
+input[name=data_autore]{
+    display:none;
+}
+input[name=SalvaAutoreButton]{
+    display:none;
+}
+#login{
+    font: 14px 'Open Sans', sans-serif;
+    background-color: #4285f4;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+	text-transform: uppercase;
+}
+input[name=SubmitButton]{
+    font: 14px 'Open Sans', sans-serif;
+    background-color: rgb(22, 19, 230);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+input[name=AutoreButton]{
+    font: 14px 'Verdana', sans-serif;
+    background-color: darkgreen;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+input[name=SalvaAutoreButton]{
+    font: 14px 'Helvetica', sans-serif;
+    background-color: rgb(172, 172, 27);
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+input[name=CercaLibro]{
+    font: 14px 'Open Sans', sans-serif;
+    background-color: rgb(22, 19, 230);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+input[name=CercaAutore]{
+    font: 14px 'Open Sans', sans-serif;
+    background-color: rgb(22, 19, 230);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+input[name=InserisciLibro]{
+    font: 14px 'Open Sans', sans-serif;
+    background-color: rgb(22, 19, 230);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+input[name=carrello]{
+    font: 14px 'Verdana', sans-serif;
+    background-color: darkgreen;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+label{
+    font: 15px 'Opens Sans', sans-serif;
+    color: darkgray;
+    font-weight: bold;
+}
+input[name=check1]{
+    font: 15px 'Opens Sans', sans-serif;
+    color: rgb(87, 86, 86);
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font:13px 'Verdana', sans-serif;
+    color:lightblue;
+    font-weight: 600;
+}
